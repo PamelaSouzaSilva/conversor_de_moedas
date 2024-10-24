@@ -22,3 +22,6 @@ document.getElementById('currency-form').addEventListener('submit', function(e) 
    } else {
        convertedAmount = amount * exchangeRates[fromCurrency][toCurrency];
    }
+   // Exibe o resultado
+   document.getElementById('result').textContent = `Resultado: ${convertedAmount.toFixed(2)}`;
+});
