@@ -6,9 +6,9 @@ document.getElementById('currency-form').addEventListener('submit', function(e) 
    const toCurrency = document.getElementById('to-currency').value;
    // Taxas de câmbio fixas (predefinidas no código)
    const exchangeRates = {
-      usd: { brl: 5.05, eur: 0.94 },
-      eur: { usd: 0.07, brl: 5.40 },
-      brl: { usd: 0.20, eur: 0.19 }
+      usd: { brl: 5.67, eur: 0.92 },
+      eur: { usd: 0.18, brl: 0.16 },
+      brl: { usd: 1.08, eur: 6.15 }
   };
    // Verifica se o valor inserido é válido
    if (isNaN(amount) || amount <= 0) {
