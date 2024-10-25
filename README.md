@@ -13,7 +13,10 @@ A aplicação permite que o usuário:
  
 • Limpe os campos para realizar uma nova conversão.
  
-Este projeto foi estruturado seguindo boas práticas de organização do código e separação entre lógica (JavaScript), estrutura (HTML) e estilo (CSS).
+Este projeto foi estruturado seguindo boas práticas de organização do código e separação entre lógica (JavaScript), 
+estrutura (HTML) e estilo (CSS).
+
+<img src="conversor.gif">
  
 ## Funcionalidades
  
